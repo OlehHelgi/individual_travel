@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/media.css" rel="stylesheet">
+  <title>Individual travel</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="logo header__logo--hover" href="#">
+          <svg width="150" height="98">
+            <use xlink:href="images/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item" data-text="Travel formats">
+              <a class="menu__link" href="#">Travel formats</a>
+            </li>
+            <li class="menu__item" data-text="About US">
+              <a class="menu__link" href="#">About US</a>
+            </li>
+            <li class="menu__item" data-text="Countries">
+              <a class="menu__link" href="#">Countries</a>
+            </li>
+            <li class="menu__item" data-text="Reviews">
+              <a class="menu__link" href="#">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social header__social">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg width="24" height="24">
+                <use xlink:href="images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg width="24" height="24">
+                <use xlink:href="images/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg width="25" height="25">
+                <use xlink:href="images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__content" style="background-image: url(../images/header-bg.jpg);">
+      <div class="container">
+        <div class="header__content-inner">
+          <h1 class="header__title">
+            Individual travel
+          </h1>
+          <button class="booking" type="button">I want to travel</button>
+          <ul class="header__info">
+            <li class="header__info-item">
+              <span>500+</span>Individual travel
+            </li>
+            <li class="header__info-item">
+              <span>800+</span>Travelers in individual
+            </li>
+            <li class="header__info-item">
+              <span>7+</span>Directions
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="tour-prep">
+      <div class="container">
+        <div class="tour-prep__text">
+          <h2 class="title tour-prep__title">
+            <span>How does it work?</span>
+          </h2>
+          <p class="tour-prep__descrip">
+            We are always online, ready to resolve any issue during your
+            trip.
+          </p>
+        </div>
+
+        <ul class="tour-prep__list">
+          <li class="tour-prep__item" style="background-image: url(images/gallery/1.jpg);">
+            <div class="tour-prep__list-box">
+              <svg width="178" height="115">
+                <use xlink:href="images/sprite.svg#decor-circle"></use>
+              </svg>
+              <span class="tour-prep__number">01</span>
+            </div>
+            <div class="tour-prep__inner">
+              <h3 class="tour-prep__item-descrip">Tour approval</h3>
+              <a href="#">
+                <svg width="60" height="56">
+                  <use xlink:href="images/sprite.svg#arrow-up"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li class="tour-prep__item" style="background-image: url(images/gallery/2.jpg);">
+            <div class="tour-prep__list-box">
+              <svg width="178" height="115">
+                <use xlink:href="images/sprite.svg#decor-circle"></use>
+              </svg>
+              <span class="tour-prep__number">02</span>
+            </div>
+            <div class="tour-prep__inner">
+              <h3 class="tour-prep__item-descrip">Preparation</h3>
+              <a href="#">
+                <svg width="60" height="57">
+                  <use xlink:href="images/sprite.svg#arrow-up"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li class="tour-prep__item" style="background-image: url(images/gallery/3.jpg);">
+            <div class="tour-prep__list-box">
+              <svg width="178" height="115">
+                <use xlink:href="images/sprite.svg#decor-circle"></use>
+              </svg>
+              <span class="tour-prep__number">03</span>
+            </div>
+            <div class="tour-prep__inner">
+              <h3 class="tour-prep__item-descrip">Beginning of the
+                journey</h3>
+              <a href="#">
+                <svg width="60" height="56">
+                  <use xlink:href="images/sprite.svg#arrow-up"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="accommodation">
+      <div class="container">
+        <h2 class="title accommodation__title">
+          Comfortable accommodation
+        </h2>
+        <div class="accommodation-inner">
+          <div class="accommodation-tour">
+            <h3 class="accommodation-tour__title accommodation-tour__title--before">
+              Hotels on this tour
+            </h3>
+            <p class="accommodation-tour__text">
+              a real treat for aesthetes. We have selected very comfortable
+              hotel and safari lodge options
+            </p>
+          </div>
+          <img class="accommodation__img accommodation__img-wide" src="images/gallery/4.jpg"
+            alt="Holiday village hotel">
+          <div class="small-map" style="background-image: url('images/gallery/map.png');"></div>
+          <img class="accommodation__img" src="images/gallery/5.jpg" alt="Cottage with a swimming pool">
+          <div class="accommodation-addtour">
+            <h3 class=" accommodation-tour__title accommodation-tour__title--after">
+              For those who want
+            </h3>
+            <p class="accommodation__addtour-text">
+              Enjoy true luxury and impeccable service. Staying in 5*+ lodges
+              will provide you with an immersive experience where
+              every detail is thought out for your comfort.
+            </p>
+          </div>
+          <img class="accommodation__img" src="images/gallery/6.jpg" alt="Cottage with a swimming pool">
+          <img class="accommodation__img" src="images/gallery/7.jpg" alt="Cottage with a swimming pool">
+          <div class="accommodation__addtour-hotel" style="background-image: url('images/gallery/map.png');">
+            <a href="#" class="accommodation__btn">More details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="container">
+        <h2 class="title slider__title">
+          <span>Top impressions you will get</span>
+        </h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="slide__img" src="images/slide/1.jpg" alt="Walking woman"></div>
+            <div class="swiper-slide"><img class="slide__img" src="images/slide/2.jpg" alt="Mountain river"></div>
+            <div class="swiper-slide"><img class="slide__img" src="images/slide/3.jpg" alt="Mountain peak"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="slide__buttons button-prev">
+            <svg width="78" height="28">
+              <use xlink:href="images/sprite.svg#arrow-left"></use>
+            </svg>
+          </div>
+          <div class="slide__buttons button-next">
+            <svg width="72" height="28">
+              <use xlink:href="images/sprite.svg#arrow-right"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="question">
+      <div class="container">
+        <h2 class="title question__title"><span>your questions</span></h2>
+        <div class="question__inner">
+          <ul class="question__list">
+            <li class="question__item">
+              <h3 class="question__item-title">How does an individual tour
+                differ from a group tour?</h3>
+              <p class="question__item-text">In an individual tour, there is
+                maximum emphasis on privacy,
+                you do not join a group of people. You can
+                stay where you
+                like the most and get more vivid impressions.</p>
+            </li>
+            <li class="question__item">
+              <h3 class="question__item-title">How to book a tour?</h3>
+              <p class="question__item-text">Leave a request on the website
+                and we will write to you on
+                WhatsApp/Telegram/Viber. Or take the initiative and write to
+                us first at +380990002355 in any messenger convenient for you
+                :)</p>
+            </li>
+            <li class="question__item">
+              <h3 class="question__item-title">Can I change the duration of
+                the
+                tour?</h3>
+              <p class="question__item-text">Of course, we can both shorten
+                and lengthen the duration of the
+                tour, taking into account your personal wishes.</p>
+            </li>
+            <li class="question__item">
+              <h3 class="question__item-title">What to take from things?</h3>
+              <p class="question__item-text">We'll give you a detailed list of
+                things in a special guide,
+                but you'll need to take both warm clothes (especially for
+                the Rainbow Mountains - including sweaters and light jackets),
+                and pants/shirts/dresses/T-shirts for other locations.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="container">
+        <h2 class="tours__title title">
+          <span>our other tours</span>
+        </h2>
+        <ul class="tours__list">
+          <li class="tours__item">
+            <img class="tours__item-img" src="images/tours/1.jpg" alt="Giraffe">
+            <h3 class="tours__item-title">Kenya</h3>
+            <ul class="tours__info-list">
+              <li class="tours__info-item">
+                <p class="tour__info-flag">
+                  <img src="images/flags/kenya.svg" alt="Kenya flag">
+                </p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-date">5-15 sept 2025</p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-price">3500€ + avia</p>
+              </li>
+            </ul>
+          </li>
+          <li class="tours__item">
+            <img class="tours__item-img" src="images/tours/2.jpg" alt="Mountain village">
+            <h3 class="tours__item-title">Ireland</h3>
+            <ul class="tours__info-list">
+              <li class="tours__info-item">
+                <p class="tour__info-flag">
+                  <img src="images/flags/ireland.svg" alt="Ireland flag">
+                </p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-date">6-18 aug 2025</p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-price">3000€ + avia</p>
+              </li>
+            </ul>
+          </li>
+          <li class="tours__item tours__item--active">
+            <img class="tours__item-img" src="images/tours/3.jpg" alt="Woman and man at a mountain lake">
+            <h3 class="tours__item-title">New Zealand</h3>
+            <ul class="tours__info-list">
+              <li class="tours__info-item">
+                <p class="tour__info-flag">
+                  <img src="images/flags/new-zealand.svg" alt="New Zealand flag">
+                </p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-date">24-30 may 2025</p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-price">4200€ + avia</p>
+              </li>
+            </ul>
+          </li>
+          <li class="tours__item">
+            <img class="tours__item-img" src="images/tours/4.jpg" alt="Girl in a poncho">
+            <h3 class="tours__item-title">Peru</h3>
+            <ul class="tours__info-list">
+              <li class="tours__info-item">
+                <p class="tour__info-flag">
+                  <img src="images/flags/peru.svg" alt="Peru flag">
+                </p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-date">05-10 jan 2025</p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-price">4000€ + avia</p>
+              </li>
+            </ul>
+          </li>
+          <li class="tours__item">
+            <img class="tours__item-img" src="images/tours/5.jpg" alt="Girl on a cable car over the jungle">
+            <h3 class="tours__item-title">Bali</h3>
+            <ul class="tours__info-list">
+              <li class="tours__info-item">
+                <p class="tour__info-flag">
+                  <img src="images/flags/indonesia.svg" alt="Indonesia flag">
+                </p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-date">10-20 june 2025</p>
+              </li>
+              <li class="tours__info-item">
+                <p class="tours__info-price">5500€ + avia</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__logo" href="#">
+          <svg width="150" height="98">
+            <use xlink:href="images/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item text-animation">
+              <a class="footer__menu-link" href="#">Home</a>
+            </li>
+            <li class="footer__menu-item text-animation">
+              <a class="footer__menu-link" href="#">Travel formats</a>
+            </li>
+            <li class="footer__menu-item text-animation">
+              <a class="footer__menu-link" href="#">Countries</a>
+            </li>
+            <li class="footer__menu-item text-animation">
+              <a class="footer__menu-link" href="#">About</a>
+            </li>
+            <li class="footer__menu-item text-animation">
+              <a class="footer__menu-link" href="#">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <h3 class="footer__contacts-title">Contacts</h3>
+          <address class="footer__address">
+            <p class="footer__address-name">Kyiv, Kalynova St. 30</p>
+            <a class="phone footer__phone text-animation" href="tel:38066652344129">+38066652344129</a>
+          </address>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="24" height="24">
+                  <use xlink:href="images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="24" height="24">
+                  <use xlink:href="images/sprite.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="25" height="25">
+                  <use xlink:href="images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__list-item text-animation">
+            <a class="footer__list-item" href="#">Tour operator license</a>
+          </li>
+          <li class="footer__list-item text-animation">
+            <a class="footer__list-item" href="#">Public offer contract</a>
+          </li>
+          <li class="footer__list-item text-animation">
+            <a class="footer__list-item" href="#">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

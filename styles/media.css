@@ -1,0 +1,484 @@
+@media (max-width: 1720px) {
+  .tour-prep__inner {
+    bottom: 52px;
+  }
+
+  .tours__info-price {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .tour-prep__inner {
+    bottom: 72px;
+  }
+
+  .tour__info-flag {
+    padding: 16px 34px;
+  }
+
+  .tours__info-list {
+    gap: 5px;
+  }
+
+  .tours__item--active .tours__info-item+.tours__info-item {
+    opacity: 1;
+  }
+
+  .tours__info-item+.tours__info-item {
+    opacity: 0;
+  }
+
+  .footer__inner {
+    gap: 0 120px;
+  }
+}
+
+
+@media (max-width: 1390px) {
+  .header__title {
+    font-size: 100px;
+  }
+
+  .tour-prep__text {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .tour-prep__item-descrip {
+    font-size: 24px;
+  }
+
+  .tour-prep__inner {
+    bottom: 92px;
+  }
+
+  .accommodation-tour__title {
+    font-size: 27px;
+  }
+
+
+}
+
+@media (max-width: 1280px) {
+  .tours__info-list {
+    left: 6px;
+  }
+
+}
+
+@media (max-width: 1220px) {
+  .header__title {
+    font-size: 70px;
+  }
+
+  .header__info-item {
+    font-size: 20px;
+  }
+
+  .header__info-item span {
+    font-size: 28px;
+  }
+
+  .header__info {
+    gap: 0 40%;
+  }
+
+  .tour-prep__inner {
+    bottom: 120px;
+  }
+
+  .tour-prep__number {
+    font-size: 80px;
+  }
+
+  .tour-prep__list-box svg {
+    scale: .9;
+  }
+
+  .tour-prep__inner svg {
+    scale: .8;
+  }
+
+  .tour-prep__item-descrip {
+    font-size: 20px;
+  }
+
+  .accommodation-tour__title {
+    font-size: 22px;
+  }
+
+  .accommodation-tour__text,
+  .accommodation__addtour-text {
+    font-size: 18px;
+  }
+
+  .tours__item-title {
+    bottom: 220px;
+  }
+
+  .tours__info-list,
+  .tours__item--active.tours__info-list {
+    left: 0;
+    right: 0;
+  }
+
+  .tours__item.tours__item--active .tours__info-list {
+    backdrop-filter: brightness(0.5);
+    bottom: 0;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 20px 0;
+  }
+
+  .tours__info-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .tours__info-price {
+    margin-left: 0;
+  }
+
+  .slider {
+    padding-bottom: 50px;
+  }
+
+  .footer__list {
+    margin-right: 10px;
+  }
+
+  .footer__inner {
+    gap: 0 70px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .tour-prep__inner {
+    bottom: 140px;
+  }
+
+  .accommodation-tour__title {
+    background-image: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .header__info {
+    gap: 0 32%;
+  }
+
+  .header__title {
+    font-size: 64px;
+  }
+
+  .header__info-item {
+    font-size: 18px;
+  }
+
+  .header__info-item span {
+    font-size: 24px;
+  }
+
+  .menu {
+    order: 1;
+  }
+
+  .menu__btn {
+    position: relative;
+    display: flex;
+    z-index: 2;
+  }
+
+  .menu__list {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 100px;
+    padding-bottom: 140px;
+    align-items: center;
+    z-index: 1;
+    background-color: #fff;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: transform .5s ease;
+  }
+
+  .menu--active .menu__list {
+    transform: scale(1);
+    transform-origin: top right;
+    transition: transform .5s ease;
+  }
+
+  .header__info-item::before {
+    top: 2px;
+  }
+
+  .tour-prep__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+  }
+
+  .tour-prep__inner {
+    /* padding-left: 0px;
+    padding-right: 0px; */
+    bottom: 26px;
+  }
+
+  .accommodation__addtour-hotel {
+    background-position: top;
+  }
+
+  .question__item-title {
+    font-size: 28px;
+  }
+
+  .question__inner::before {
+    height: 130px;
+    width: 100%;
+  }
+
+  .slide__buttons {
+    display: none;
+  }
+
+  .swiper-pagination-bullet {
+    display: inline-block;
+  }
+
+  .footer__logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .header__info {
+    gap: 0 20%;
+  }
+
+  .header__title {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .booking {
+    padding: 14px 23px;
+    font-size: 14px;
+  }
+
+  .header__info-item {
+    font-size: 16px;
+  }
+
+  .header__info-item span {
+    font-size: 22px;
+  }
+
+  .header__info-item::before {
+    top: 2px;
+  }
+
+  .social__link,
+  .logo {
+    pointer-events: none;
+  }
+
+  .accommodation-tour__title {
+    font-size: 18px;
+  }
+
+  .accommodation-tour__text,
+  .accommodation__addtour-text {
+    font-size: 14px;
+  }
+
+  /* .small-map,
+  .accommodation__addtour-hotel {
+    background-image: none;
+  } */
+
+  .accommodation-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .accommodation__btn {
+    padding: 13px 33px;
+    font-size: 18px;
+  }
+
+  .accommodation-tour {
+    grid-column: span 2;
+  }
+
+  .accommodation-tour__title {
+    text-align: center;
+  }
+
+  .accommodation-tour__text {
+    max-width: 100%;
+  }
+
+  .accommodation__btn {
+    right: 100px;
+    font-size: 18px;
+  }
+
+  .tours {
+    padding-top: 50px 0;
+  }
+
+  .tours__list {
+    flex-direction: column;
+  }
+
+  .tours__item.tours__item--active {
+    width: 100%;
+    height: 800px;
+  }
+
+  .tours__item {
+    width: 100%;
+    height: 200px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: height 0.5s;
+  }
+
+  .tours__item-title {
+    font-size: 32px;
+  }
+
+  .tours__info-list {
+    bottom: -24px;
+  }
+
+  .question {
+    padding: 50px 0 50px;
+  }
+
+  .question__inner::before {
+    display: none;
+  }
+
+  .question__inner {
+    padding: 0 100px;
+  }
+
+}
+
+@media (max-width: 620px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .accommodation__btn {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header__info {
+    flex-direction: column;
+    gap: 15px 0;
+    align-items: center;
+  }
+
+  .header__info-item {
+    display: inline-block;
+  }
+
+  .accommodation__btn {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__logo--hover svg {
+    width: 100px;
+  }
+
+  .header__social {
+    gap: 30px;
+  }
+
+  .header__title {
+    font-size: 40px;
+  }
+
+  .accommodation {
+    padding-top: 20px;
+  }
+
+  .accommodation-addtour {
+    padding-left: 10px;
+  }
+
+  .accommodation__btn {
+    right: 76px;
+  }
+
+}
+
+@media (max-width: 390px) {
+
+  .title {
+    font-size: 28px;
+  }
+
+  .question__inner {
+    padding: 0 60px;
+  }
+
+  .footer__inner {
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tour-prep__title {
+    font-size: 24px;
+  }
+
+  .tour-prep__descrip {
+    font-size: 20px;
+  }
+
+  .tour-prep__item {
+    height: 340px;
+  }
+
+  .accommodation-inner {
+    margin-bottom: 60px;
+  }
+
+  .accommodation-addtour {
+    padding-left: 5px;
+  }
+
+  .accommodation__btn {
+    right: 60px;
+  }
+
+  .accommodation-tour__text,
+  .accommodation__addtour-text {
+    font-size: 12px;
+  }
+}
